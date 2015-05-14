@@ -1,0 +1,7 @@
+config.tx_extbase.persistence.classes {
+	Tx_HwtSyscategories_Domain_Model_Category {
+		mapping {
+			tableName = sys_category
+		}
+	}
+}

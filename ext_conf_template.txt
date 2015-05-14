@@ -1,0 +1,2 @@
+	# cat=Basic/enable/103; type=boolean; label=LLL:EXT:ext_key/Resources/Private/Language/locallang_be.xlf:extmgm.enableSomething
+#enableSomething = 0
