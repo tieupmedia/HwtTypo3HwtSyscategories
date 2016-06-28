@@ -1,4 +1,7 @@
 <?php
+
+namespace Hwt\HwtSyscategories\Domain\Model;
+
 /***************************************************************
  *  Copyright notice
  *
@@ -29,13 +32,13 @@
  * @subpackage tx_hwtsyscategories
  * @author Heiko Westermann <hwt3@gmx.de>
  */
-class Tx_HwtSyscategories_Domain_Model_Category extends \TYPO3\CMS\Extbase\Domain\Model\Category {
+class Category extends \TYPO3\CMS\Extbase\Domain\Model\Category {
 	/**
 	 * @var Tx_HwtSyscategories_Domain_Model_Category|NULL
 	 * @lazy
 	 */
 	protected $parent = NULL;
-    
+
     /**
      * txHwtsyscategoriesImages
      *
@@ -43,8 +46,15 @@ class Tx_HwtSyscategories_Domain_Model_Category extends \TYPO3\CMS\Extbase\Domai
      * @lazy
      */
     protected $txHwtsyscategoriesImages;
-    
-    
+
+    /**
+     * txHwtsyscategoriesLink
+     *
+	 * @var string
+	 */
+	protected $txHwtsyscategoriesLink;
+
+
     /**
      * __construct
      * @return AbstractObject
@@ -78,4 +88,14 @@ class Tx_HwtSyscategories_Domain_Model_Category extends \TYPO3\CMS\Extbase\Domai
     public function getTxHwtsyscategoriesImages() {
             return $this->txHwtsyscategoriesImages;
     }
+
+
+	/**
+	 * Get link
+	 *
+	 * @return string
+	 */
+	public function getTxHwtsyscategoriesLink() {
+		return $this->txHwtsyscategoriesLink;
+	}
 }

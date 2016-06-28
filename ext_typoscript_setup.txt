@@ -1,5 +1,6 @@
+# map domain model
 config.tx_extbase.persistence.classes {
-	Tx_HwtSyscategories_Domain_Model_Category {
+	Hwt\HwtSyscategories\Domain\Model\Category {
 		mapping {
 			tableName = sys_category
 		}

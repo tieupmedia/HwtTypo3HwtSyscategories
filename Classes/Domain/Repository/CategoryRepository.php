@@ -1,4 +1,7 @@
 <?php
+
+namespace Hwt\HwtSyscategories\Domain\Repository;
+
 /***************************************************************
  *  Copyright notice
  *
@@ -29,5 +32,5 @@
  * @subpackage tx_hwtsyscategories
  * @author Heiko Westermann <hwt3@gmx.de>
  */
-class Tx_HwtSyscategories_Domain_Repository_CategoryRepository extends \TYPO3\CMS\Extbase\Domain\Repository\CategoryRepository {
+class CategoryRepository extends \TYPO3\CMS\Extbase\Domain\Repository\CategoryRepository {
 }

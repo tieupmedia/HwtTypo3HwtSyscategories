@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-05-18T17:54:12Z" product-name="tx_hwtsyscategories">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-06-28T17:54:12Z" product-name="tx_hwtsyscategories">
 		<header/>
 		<body>
 			<trans-unit id="sys_category.tx_hwtsyscategories_selectable" xml:space="preserve">
@@ -8,6 +8,9 @@
 			</trans-unit>
 			<trans-unit id="sys_category.tx_hwtsyscategories_images" xml:space="preserve">
 				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="sys_category.tx_hwtsyscategories_link" xml:space="preserve">
+				<source>Link</source>
 			</trans-unit>
 		</body>
 	</file>
