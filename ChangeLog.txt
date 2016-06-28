@@ -1,3 +1,8 @@
+0.0.3-beta 2016-06-28 Heiko Westermann <hwt3@gmx.de>
+	* Feature: Added link field to record and domain model.
+    * Task: Use namespaces.
+    * Task: Tested in TYPO3 7.x
+
 0.0.2-beta 2015-05-13 Heiko Westermann <hwt3@gmx.de>
 	* Feature: Extended domain model and repository for usage in own extensions.
 
