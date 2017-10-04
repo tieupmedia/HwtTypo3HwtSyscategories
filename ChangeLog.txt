@@ -1,3 +1,6 @@
+0.0.4-beta 2017-10-04 Heiko Westermann <hwt3@gmx.de>
+    * Task: Tested in TYPO3 8.x (Ignored TCA deprecations to be compatible to TYPO3 6.2 until now)
+
 0.0.3-beta 2016-06-28 Heiko Westermann <hwt3@gmx.de>
 	* Feature: Added link field to record and domain model.
     * Task: Use namespaces.
