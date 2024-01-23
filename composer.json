@@ -1,0 +1,45 @@
+{
+    "name": "tieupmedia/hwt_syscategories",
+    "type": "typo3-cms-extension",
+    "description": "This TYPO3 extensions extends the system categories since TYPO3 6.x. It adds an image and a link option to sys_category records. With an own model and repository it's prepared for usage in custom extbase extensions.",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.typo3.org/"
+        }
+    ],
+    "keywords": [
+        "TYPO3 CMS",
+        "Extbase",
+        "Categories"
+    ],
+    "authors": [
+        {
+            "name": "tie-up media",
+            "email": "hwt3@gmx.de",
+            "role": "Developer",
+            "homepage": "https://github.com/tieupmedia/"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": ">=6.1.0 <=8.7.99"
+    },
+    "replace": {
+        "typo3-ter/hwt-address": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hwt\\HwtSyscategories\\": "Classes"
+        }
+    },
+    "homepage": "https://github.com/tieupmedia/",
+    "license": "GPL-2.0-or-later",
+    "support": {
+        "issues": "https://github.com/tieupmedia/HwtTypo3HwtSyscategories/issues/"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "hwt_syscategories"
+        }
+    }
+}
