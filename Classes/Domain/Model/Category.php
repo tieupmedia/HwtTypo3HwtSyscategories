@@ -35,7 +35,7 @@ namespace Hwt\HwtSyscategories\Domain\Model;
 class Category extends \TYPO3\CMS\Extbase\Domain\Model\Category {
 	/**
 	 * @var \Hwt\HwtSyscategories\Domain\Model\Category|NULL
-	 * @lazy
+	 * @TYPO3\CMS\Extbase\Annotation\ORM\Lazy
 	 */
 	protected $parent = NULL;
 
@@ -43,7 +43,7 @@ class Category extends \TYPO3\CMS\Extbase\Domain\Model\Category {
      * txHwtsyscategoriesImages
      *
      * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\TYPO3\CMS\Extbase\Domain\Model\FileReference>
-     * @lazy
+     * @TYPO3\CMS\Extbase\Annotation\ORM\Lazy
      */
     protected $txHwtsyscategoriesImages;
 
