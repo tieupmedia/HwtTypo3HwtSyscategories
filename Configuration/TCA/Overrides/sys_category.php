@@ -50,21 +50,10 @@ $temporaryColumns = array(
         'label' => 'LLL:EXT:hwt_syscategories/Resources/Private/Language/locallang_db.xlf:sys_category.tx_hwtsyscategories_link',
         'config' => array(
             'type' => 'input',
+            'renderType' => 'inputLink',
             'size' => 50,
             'max' => 1024,
             'eval' => 'trim',
-            'wizards' => array(
-                'link' => array(
-                    'type' => 'popup',
-                    'title' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_link_formlabel',
-                    'icon' => 'EXT:backend/Resources/Public/Images/FormFieldWizard/wizard_link.gif',
-                    'module' => array(
-                        'name' => 'wizard_link',
-                    ),
-                    'JSopenParams' => 'width=800,height=600,status=0,menubar=0,scrollbars=1'
-                )
-            ),
-            'softref' => 'typolink'
         )
     ),
 );
