@@ -1,3 +1,10 @@
+0.0.5-beta 2024-01-24 Heiko Westermann <hwt3@gmx.de>
+    * [BUGFIX] model: Adjust return types to namespaces
+    * [FEATURE] Add composer.json
+    * [TASK] tca: Remove unused file types config on image field
+    * [TASK] tca: Remove custom thumbnail config on image field
+    * [UPDATE] tca: Migrate core label path on image field for TYPO3 >= 7.4, deprecation #67991
+
 0.0.4-beta 2017-10-04 Heiko Westermann <hwt3@gmx.de>
     * Task: Tested in TYPO3 8.x (Ignored TCA deprecations to be compatible to TYPO3 6.2 until now)
 
