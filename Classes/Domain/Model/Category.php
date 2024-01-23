@@ -34,7 +34,7 @@ namespace Hwt\HwtSyscategories\Domain\Model;
  */
 class Category extends \TYPO3\CMS\Extbase\Domain\Model\Category {
 	/**
-	 * @var Tx_HwtSyscategories_Domain_Model_Category|NULL
+	 * @var \Hwt\HwtSyscategories\Domain\Model\Category|NULL
 	 * @lazy
 	 */
 	protected $parent = NULL;
@@ -69,7 +69,7 @@ class Category extends \TYPO3\CMS\Extbase\Domain\Model\Category {
 	/**
 	 * Gets the parent category.
 	 *
-	 * @return Tx_HwtSyscategories_Domain_Model_Category|NULL the parent category
+	 * @return \Hwt\HwtSyscategories\Domain\Model\Category|NULL the parent category
 	 * @api
 	 */
 	public function getParent() {
