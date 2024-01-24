@@ -27,7 +27,7 @@ $temporaryColumns = array(
 				),
 				// custom configuration for displaying fields in the overlay/reference table
 				// to use the imageoverlayPalette instead of the basicoverlayPalette
-				'foreign_types' => array(
+				'overrideChildTca' => array(
 					'0' => array(
 						'showitem' => '
 							--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,
