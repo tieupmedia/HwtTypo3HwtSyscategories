@@ -1,3 +1,11 @@
+2024-01-24 Heiko Westermann <hwt3@gmx.de>
+    * Version 2.0.0 - Maintenance release for TYPO3 10.x and 11.x
+    * [TASK] Tested in TYPO3 11.x
+    * [UPDATE] config: Replace extbase persistence mapping for TYPO3 >= 10.0, breaking #87623
+    * [UPDATE] model: Replace @lazy annotation, for TYPO3 >= 9.0, deprecation #83078
+    * [UPDATE] tca: Migrate child key on image field for TYPO3 >= 8.7
+    * [UPDATE] tca: Migrate wizard config for TYPO3 >= 8.6, deprecation #79440
+
 0.0.5-beta 2024-01-24 Heiko Westermann <hwt3@gmx.de>
     * [BUGFIX] model: Adjust return types to namespaces
     * [FEATURE] Add composer.json
