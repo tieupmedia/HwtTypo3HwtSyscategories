@@ -23,10 +23,6 @@ $temporaryColumns = array(
 			'tx_hwtsyscategories_images',
 			array(
 				'appearance' => array(
-					'headerThumbnail' => array(
-						'width' => '100',
-						'height' => '100',
-					),
 					'createNewRelationLinkTitle' => 'LLL:EXT:cms/locallang_ttc.xlf:images.addFileReference'
 				),
 				// custom configuration for displaying fields in the overlay/reference table
